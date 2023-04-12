@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+:root{
+    --back: #F5F9FC;
+    --bleu:#011a45;
+    --vert:#4cd7a9;
+    --titre :#000000;
+    --text:#454444;
+    --font: 'Poppins', 'sans-serif';
+   --sidepading: 10%;
+    
+}
+*{
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    background-color: var(--back);
+    color: var(--text);
+    width: 100%;
+}
+.main-nav{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.3em ;
+    width: 100%;
+    position: fixed;
+    background-color: var(--back);
+    
+}
+.main-nav-img{
+    height: 70px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+ }
+ .main-nav-elts{
+    display: flex;
+    margin: 1.5em 8em  1.5em 20em;
+    list-style-type: none;
+ }
+ .mainnavelt a{
+     color: var(--text);
+     text-align: center;
+     text-decoration: none;
+     padding: 5px 40px 5px 40px;
+ }
+ .mainnavelt a:hover{
+    color: var(--vert);
+}
+.button2{
+    background-color:var(--back);
+    color:var(--text);
+    transition: color 300ms linear;
+    text-transform:uppercase;
+    padding: 0.8em 5em 0.8em 5em ;
+    font-size: 0.7em;
+   font-style:normal;
+   font-weight: bolder;
+    margin: auto 0.5em;
+    border: 2px solid var(--text);
+}
+.button2:hover{
+    color: var(--vert);
+    border: 2px solid var(--vert);
+  }
+section{
+    display:flex;
+    flex-direction: column;
+    padding: 0 var(--sidepading 0 var(--sidepading));
+}
+/*-------Home-------*/
+#Home{
+   
+    
+    background-color: rgba(255, 255, 0, 0.3);
+
+    flex-direction: row-reverse;
+    background: url(img/;;;\ 1.png);
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+   
+}
+.home{
+    margin-bottom: 50px;
+    margin-top: 95px;
+    margin-left: 100p;
+    padding: 120px;
+}
+.imgQ{
+    width: 500px;
+    height: 500px;
+    margin-top: 134px;
+    margin-left: 19px;
+    margin-right: 186px;
+}
+.titre{
+    color: var(--titre);
+    font-family: var(--font);
+    font-size: 50px;
+    padding: auto;
+    margin: auto;
+}
+.text{
+    font-size: 15px;
+    font-family: var(--font);
+    color: var(--text);
+    letter-spacing: .2rem;
+}
+.button1{
+    background-color:var(--vert);
+    color:var(--text);
+    text-transform:uppercase;
+    padding: 0.8em 5em 0.8em 5em ;
+    font-size: 0.7em;
+   font-style:normal;
+   font-weight:bolder;
+    margin: auto 0.5em;
+    border: 2px solid var(--vert); 
+}
+/*-------About Quran------*/
+#Quran{
+    flex-direction: row-reverse ;
+}
+.sct2{
+    margin-top: 50px;
+    columns: 2;
+    margin-bottom: 50px;
+}
+.Quran{
+    margin: 45px;
+    padding: 50px;
+    line-height: 2em;
+}
+#about2{
+    margin: 20px 80px 70px 80px;
+}
+#about3{
+    margin: 70px 50px 50px 190px;
+}
+.image-about{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.im1{
+    position: relative;
+    top: 0;
+    left: 0;
+    /* width: 500px; */
+    height: 572px;
+    margin: 0em 0em 0em 3em;
+}
+.im2{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    /* top: -12px; */
+    left: 80px;
+}
+/*-------Quran Audio ------*/
+#quran-audio1{
+    margin: 10px 305px 10px 321px;
+}
+#quran-audio2{
+    margin: 10px 322px 10px 470px;
+}
+.input{
+    margin: 37px 536px 61px 563px;
+    /* width: 100%; */
+    border-radius: 1.5em;
+    padding: 1.3em;
+    background-color: var(--back);
+    border: 0.1em solid var(--vert);
+    font-weight: 900;
+    font-family: var(--font);
+    font-size: 15px ;
+} 
+.surahs{
+    padding: 45px;
+}
+.surah{
+    width: 100%;
+    justify-content: center; 
+    flex-direction: column;
+    display: inline;
+    padding: 20px;
+    margin: 35px;
+
+}
+.button4{
+    position:relative;
+    margin: 0px 50px 10px 50px;
+    padding: 0px 79px 0px 99px;
+    background-color: var(--back);
+    border-radius: 0.8em;
+    border: 0.1em solid var(--text);
+}
+/* .button5{
+    
+    position: absolute;
+    left: 80px;
+    right: 80px;
+    bottom: 10px;
+} */
+#btn2{
+    margin: 67px 423px 20px 612px;
+    font-family: var(--font);
+    font-weight: bold;
+}
+.titre2{
+    font-family: var(--font);
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--text);
+    margin: 6px 0px 0px 0px;
+}
+.text2{
+    padding: 0px 25px 0px 5px;
+    font-family: var(--font);
+    font-weight: lighter;
+    font-size: 10px;
+   
+}
+
+/*-------Blogs ------*/
+.sct4{
+    margin-bottom: 50px;
+    margin-top: 95px;
+    margin-left: 100p;
+    padding: 120px; 
+}
+.schedule{
+    background-color:var(--back);
+    margin: 5px;
+   
+}
+#blogT{
+    margin: 20px 5px 10px 310px;
+    line-height: 1.5em;
+} 
+.schedules{
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    flex-wrap:nowrap; 
+    margin-bottom: 70px;
+}
+.img1{
+    width: 95%;
+    height:70%;
+}
+.txt{
+    font-size: 15px;
+    font-family: var(--font);
+    color: var(--vert);
+    font-weight: bolder;
+}
+#btn{
+    margin: 0px 510px 20px 530px;
+}
+/*-----About us ----*/
+
+#About-Us{
+    
+    align-items: center;
+}
+.sct5{
+    background-color: var(--bleu);
+    columns: 2px ;
+   
+}
+.contact-info{ 
+    
+     margin: 50px 600px 0px 0px;
+    width: 50%;
+}
+.ig1{
+    width: 26px;
+    height: 47px;
+    padding: 11px 0px 14px 3px;
+    margin: 0px 0px 0px 54px
+}
+.info{
+    padding: 3px 20px 14px 15px ;
+}
+.titre-info{
+    font-size: 20px ;
+    font-family: var(--font);
+    font-weight: 700;
+    padding: 11px 0px 14px 3px;
+    margin: 0px 0px 0px 54px
+}
+.text3{
+    padding: 12px 38px -26px 3px;
+    margin: 37px 89px 90px 40px;
+
+}
+.submition{
+    display: flex;
+    flex-direction: column;;
+    margin: 0px 0px 0px 370px;
+ 
+}
+#input2{  
+   border-radius: 1.5em;
+    background-color: var(--back);
+    border: 4em solid var(--back);
+    font-weight: 900;
+    font-family: var(--font);
+    font-size: 15px ;
+    padding: 12px 38px -26px 3px;
+    margin: 37px 89px 90px 40px;
+}
